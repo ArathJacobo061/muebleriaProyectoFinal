@@ -1,0 +1,73 @@
+/*regla css consta de 2 partes:
+1.selecto
+2.bloque de declaraciones (son los atributos que vamos a modificar)
+atributo: valor;
+*/
+h1{
+    color: orangered;
+    background-color: skyblue;
+}
+
+
+/*otro tipo de selector es el de clase y se ocupa cuando se requiere estilos diferentes por etiqueta*/
+
+.text-20{
+    font-size: 20px;
+    color: darkblue;
+}
+
+.text-32-darkslategray{
+    font-size: 32px;
+    color: darkslategray;
+
+}
+.bg-cornflowerblue{
+    background-color: cornflowerblue;
+}
+.bg-yellowgreen{
+    background-color: yellowgreen;
+
+}
+#parrafotres{
+    background-color: coral;
+    
+}
+.color-by-name{
+    background-color: coral;
+    color: rebeccapurple;
+    border: thick solid greenyellow;
+}
+
+.color-hex{
+    background-color: #F08080;
+    color: #000080;
+    border:thick solid #2FFFD4;
+
+
+
+}
+ .color-rgb{
+    background-color: rgb(21, 211, 211);
+    color: rgb(17, 90,154);
+    border: thick solid rgb(148, 0, 11);
+
+
+ }
+ .font{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+
+ }
+ @font-face {
+    font-family: "pecita";
+    src: url("../CSS/Pecita.woff");
+ }
+ .font-pecita{
+    font-family: "pecita";
+    font-size: medium;
+ }
+
+
+

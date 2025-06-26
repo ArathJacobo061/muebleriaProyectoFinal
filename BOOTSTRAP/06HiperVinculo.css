@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.cabecera {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.navegacion a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+  border: 2px solid #003366;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.navegacion a:hover {
+  background-color: #003366;
+  color: white;
+}
+
+.descripciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.descripcion {
+  flex: 1 1 250px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-left: 5px solid #003366;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.tablas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.tabla {
+  flex: 1 1 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.tabla:hover {
+  transform: scale(1.02);
+}
+
+.tabla h3 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Colores personalizados por área */
+.servicios h3 { background-color: #0d6efd; }
+.mantenimiento h3 { background-color: #dc3545; }
+.rh h3 { background-color: #ffc107; color: #333; }
+.soporte h3 { background-color: #198754; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  border-radius: 0 0 8px 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #003366;
+  color: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+tbody tr:hover {
+  background-color: #f0f8ff;
+  transition: 0.2s;
+}
+
+.valores {
+  background-color: #d4edda;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.valores ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin: 0;
+}
+
+.valores li {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+

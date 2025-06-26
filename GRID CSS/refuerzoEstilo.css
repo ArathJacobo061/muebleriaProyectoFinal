@@ -1,0 +1,110 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(2, auto);   
+  gap: 10px; 
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 15% 35% 50%;
+   
+  gap: 10px; 
+}
+.item{
+    padding: 5px;
+    font-size: 14px;
+    background-color: cadetblue;
+    text-align: center;
+}
+.item2{
+    padding: 5px;
+    font-size: 14px;
+    background-color: blue;
+    text-align: center;
+}
+body{
+    background-color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,auto);
+  width: 50%;
+  height: 50%;
+   
+}
+
+.item3{
+    padding: 10px;
+    font-size: 14px;
+    background-color: white;
+    text-align: center;
+}
+.item4{
+    padding: 10px;
+    font-size: 14px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.container4 {
+      display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+  width: 90%;
+  margin: auto;
+}
+.container4 .itemA:nth-child(1) {
+  grid-area: 1 / 1 / 2 / 5; 
+  background-color: gold;
+  text-align: center;
+  
+}
+
+.container4 .itemB:nth-child(2) {
+  grid-area: 2 / 1 / 3 / 2; 
+  background-color: deepskyblue;
+   text-align: center;
+}
+
+.container4 .itemC:nth-child(3) {
+  grid-area: 2 / 2 / 3 / 3; 
+  background-color: hotpink;
+   text-align: center;
+}
+
+.container4 .itemD:nth-child(4) {
+  grid-area: 2 / 3 / 3 / 4; 
+  background-color: orange;
+   text-align: center;
+}
+
+.container4 .itemE:nth-child(5) {
+  grid-area: 3 / 1 / 4 / 2; 
+  background-color: tomato;
+   text-align: center;
+}
+
+.container4 .itemF:nth-child(6) {
+  grid-area: 3 / 2 / 4 / 3;
+  background-color: turquoise;
+   text-align: center;
+}
+
+.container4 .itemG:nth-child(7) {
+  grid-area: 3 / 3 / 4 / 4; 
+  background-color: limegreen;
+   text-align: center;
+}
+
+.container4 .itemH:nth-child(8) {
+  grid-area: 2 / 4 / 4 / 5; 
+  background-color: violet;
+   text-align: center;
+}

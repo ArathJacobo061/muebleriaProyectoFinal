@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.cabecera {
+  display: flex ;
+  justify-content: space-between;
+  align-items: last center;
+  background-color: #003366; 
+  padding: 10px 20px;
+}
+
+.logo input {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 30px;
+  font-size: 20px;
+}
+
+
+.menu2 {
+  background-color: wheat;
+  padding: 20px;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.menu2 button {
+  background-color: black;
+  color: white ;
+  font-weight: bold;
+  cursor: pointer;
+}
+.menu2 input{
+    background-color: white;
+    color: black;
+
+}
+.vuelo{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap; 
+    
+}
+.cajaVuelo{
+    color: white;
+    padding: 15px;
+    flex: 1;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: gray;
+}
+.footer{
+    background-color: #003366; 
+    color: white;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}

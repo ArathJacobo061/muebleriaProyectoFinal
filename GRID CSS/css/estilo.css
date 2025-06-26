@@ -1,0 +1,56 @@
+.container .item:nth-child(1){
+    background-color: aqua;
+    border:medium solid blue;
+    width: 80%;
+    height: 80%;
+
+    /*indica que el contenedor va a utilizar css*/
+    display: grid;
+    /*ejemplo de 3x3 */
+    grid-template-rows: 33% 33% 34%;
+    grid-template-columns: 33% 33% 34%;
+
+    /*ejemplo 4x4 */ 
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 100px 50% 75px 1fr;
+
+    /*ejemplo 5x5 */ 
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(5,1fr);
+
+    /*segunda opcion para grids del mismo tamano de item */
+    grid-template-columns: repeat(6,auto);
+    grid-template-rows: repeat(6,auto);
+    grid-area: 1/1/2/7;
+
+}
+.container .item:nth-child(2){
+    color: aqua;
+    background-color: blue;
+    /*primera forma*/
+    /*
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+
+    /*segunda forma */ 
+    /*row-start / column-start /row-end / column-end */
+
+    grid-area: 2/1/3/4;
+}
+.item{
+    padding: 5px;
+    font-size: 14px;
+    border-color: gray;
+    border: medium solid whitesmoke;
+
+}
+body{
+    background-color: cadetblue;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+
+ 

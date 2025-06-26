@@ -1,0 +1,22 @@
+.boton-carrito {
+  background-color: #7ac943; /* verde similar al de la imagen */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px; /* bordes redondeados */
+  font-size: 16px;
+  cursor: pointer; /* cambia el cursor al pasar encima */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* sombra ligera */
+  transition: background-color 0.3s;
+
+}
+h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
