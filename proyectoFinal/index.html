@@ -1,28 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Muebleria ArathJacobo</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Mueblería ArathJacobo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
+
 <body>
-    <header>
-<h1>Tienda de  <span style="color: #037BC0;">Muebles</span></h1>
- <nav>
-    Inicio | Nosotros | Tienda | Blog | Galería | Contacto
-</nav>
+  <header>
+    <h1>Tienda de <span style="color: #037BC0;">Muebles</span></h1>
+    <nav class="nav-principal">
+      Inicio | Nosotros | Tienda | Blog | Galería | Contacto
+    </nav>
 
- <section class="hero">
-  <img src="principal.jpg" alt="Imagen hero" class="hero-img">
-</section>
-    </header>
+    <section class="hero">
+      <div class="container-fluid">
+        <div id="carruselHero" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-<section class="productos">
+
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carruselHero" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carruselHero" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carruselHero" data-bs-slide-to="2"></button>
+          </div>
+
+
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <img src="img/Modern-luxury-living-room.webp" class="d-block w-100" alt="Imagen principal 1">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Bienvenido a Mueblería ArathJacobo</h5>
+                <h5>Los mejores muebles para tu hogar</h5>
+              </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="img/Modern-luxury-living-room-2.webp" class="d-block w-100" alt="Imagen principal 2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Diseños modernos</h5>
+                <h5>Estilo y comodidad en cada pieza</h5>
+              </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="20000">
+              <img src="img/principal.jpg" class="d-block w-100" alt="Imagen principal 3">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Envíos a todo México</h5>
+                <h5>Compra desde casa sin preocupaciones</h5>
+              </div>
+            </div>
+          </div>
+
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carruselHero" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previo</span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#carruselHero" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <section class="productos">
     <h2>Nuestros Productos</h2>
 
-    
+
     <div class="fila fila-1">
       <div class="producto">
-        <img src="producto1.jpg" alt="Producto 1">
+        <img src="img/producto1.jpg" alt="Producto 1">
         <h3>Producto 1</h3>
         <p>Lorem ipsum dolor sit amet.</p>
         <p class="precio">$12,000.00</p>
@@ -30,17 +90,17 @@
       </div>
     </div>
 
-    
+
     <div class="fila fila-2">
       <div class="producto">
-        <img src="producto2.jpg" alt="Producto 2">
+        <img src="img/producto2.jpg" alt="Producto 2">
         <h3>Producto 2</h3>
         <p>Lorem ipsum dolor sit amet.</p>
         <p class="precio">$12,000.00</p>
         <div class="boton">Agregar al carrito</div>
       </div>
       <div class="producto">
-        <img src="producto3.jpg" alt="Producto 3">
+        <img src="img/producto3.jpg" alt="Producto 3">
         <h3>Producto 3</h3>
         <p>Lorem ipsum dolor sit amet.</p>
         <p class="precio">$12,000.00</p>
@@ -51,21 +111,21 @@
 
     <div class="fila fila-3">
       <div class="producto">
-        <img src="producto4.jpg" alt="Producto 4">
+        <img src="img/producto4.jpg" alt="Producto 4">
         <h3>Producto 4</h3>
         <p>Lorem ipsum dolor sit amet.</p>
         <p class="precio">$12,000.00</p>
         <div class="boton">Agregar al carrito</div>
       </div>
       <div class="producto">
-        <img src="producto5.jpg" alt="Producto 5">
+        <img src="img/producto5.jpg" alt="Producto 5">
         <h3>Producto 5</h3>
         <p>Lorem ipsum dolor sit amet.</p>
         <p class="precio">$12,000.00</p>
         <div class="boton">Agregar al carrito</div>
       </div>
       <div class="producto">
-        <img src="producto6.jpg" alt="Producto 6">
+        <img src="img/producto6.jpg" alt="Producto 6">
         <h3>Producto 6</h3>
         <p>Lorem ipsum dolor sit amet.</p>
         <p class="precio">$12,000.00</p>
@@ -73,10 +133,54 @@
       </div>
     </div>
 
-  </section>    
 
+    <section class="categorias">
+      <h2>CATEGORÍAS DE PRODUCTOS</h2>
+      <div class="contenedor-categorias">
+        <div class="categoria">
+          <img src="img/categoria1.jpg" alt="categoria 1">
+          <h3>Oficina</h3>
 
+        </div>
+        <div class="categoria">
+          <img src="img/categoria2.jpg" alt="categoria 2">
+          <h3>Hogar</h3>
 
-    
+        </div>
+        <div class="categoria">
+          <img src="img/categoria3.jpg" alt="categoria 3">
+          <h3>Cocina</h3>
+
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-contenedor">
+        <div class="footer-columna">
+          <h3>Categorías</h3>
+          <p>Cocina</p>
+          <p>Oficina</p>
+          <p>Jardín</p>
+          <p>Cochera</p>
+          <p>Dormitorios</p>
+        </div>
+        <div class="footer-columna">
+          <h3>Sobre Nosotros</h3>
+          <p>Nuestra historia</p>
+          <p>Misión, visión y valores</p>
+          <p>Carrera</p>
+          <p>Políticas de privacidad</p>
+          <p>Términos del servicio</p>
+        </div>
+        <div class="footer-columna">
+          <h3>Soporte</h3>
+          <p>Preguntas frecuentes</p>
+          <p>Ayuda en línea</p>
+          <p>Confianza y seguridad</p>
+        </div>
+      </div>
+      <p class="footer-derechos">Todos los derechos reservados. TiendaMuebles</p>
+    </footer>
 </body>
+
 </html>
