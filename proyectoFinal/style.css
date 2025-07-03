@@ -11,11 +11,12 @@ header {
 }
 
 .nav-principal {
-    background-color: #1820ad;
+    background-color: rgb(21, 21, 168);
     color: white;
     padding: 10px;
     text-align: center;
 }
+
 
 h2 {
     text-align: center;
